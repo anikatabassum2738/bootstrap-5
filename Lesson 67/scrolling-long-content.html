@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <h1>Scrolling Long Content</h1>
+
+    <div class="container mt-3">
+         <div class="row justify-content-center">
+            <div class="col-md-8">
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#my-modal">
+                    Click to launch
+                </button>
+
+                <div 
+                    class="modal fade"
+                    id="my-modal"
+                    tabindex="1"
+                    aria-labelledby="my-modal-label"
+                    aria-hidden="true"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="my-modal-label">Modal Title</h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close">
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, pariatur velit nulla temporibus nisi atque maxime vitae aspernatur architecto deleniti laborum nemo cupiditate inventore officiis quidem similique. Officiis voluptatem deserunt quaerat natus rerum ipsum, numquam reprehenderit at tempore, atque totam dignissimos assumenda eius. Perspiciatis sint debitis iusto. Velit aspernatur blanditiis error repudiandae numquam voluptate tempora. Explicabo fugit modi debitis autem vitae voluptas officiis ex earum incidunt enim laborum quia corrupti error voluptatibus, ipsum impedit nihil beatae labore. Inventore nemo esse quam, impedit possimus pariatur? Quam alias molestias recusandae, cum nesciunt quo aperiam tempora laboriosam exercitationem vero optio dignissimos accusamus obcaecati corrupti soluta eos at magni reiciendis ipsam illo, voluptate sed fugit! Asperiores dolorum quidem quae aut recusandae quibusdam reiciendis animi perspiciatis esse temporibus. Assumenda eligendi reiciendis, sit nobis, ipsum, consequatur sint iure esse ipsam vitae provident rerum fugit repudiandae in? Placeat quae consequatur cum quo dignissimos deleniti optio atque, rem provident aperiam iusto necessitatibus asperiores minima vel exercitationem adipisci accusamus, sequi, culpa cumque illum officiis libero. Sequi neque quia quidem ipsum enim omnis earum culpa, laudantium ad error adipisci quaerat consequuntur atque sed! Quia facere ex quod dolore, laboriosam, cum unde sequi itaque veniam doloribus, autem at architecto atque harum. Non omnis officia, earum inventore error voluptatem perspiciatis quos incidunt vel atque beatae sint! Velit molestias obcaecati fuga, ad odit facilis itaque mollitia voluptatum molestiae accusamus, debitis sunt. Reprehenderit error cupiditate a qui dolorum eveniet laboriosam optio quibusdam deleniti sunt ipsam expedita aspernatur voluptate laudantium nisi, officia ratione quo maiores!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal">
+                                    Close
+                                </button>
+                                <button class="btn btn-primary" type="button">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
