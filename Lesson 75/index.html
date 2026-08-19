@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1>Scrollspy</h1>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center top-spacing">
+            <div class="col-md-8">
+               <div class="card-header">
+                    <nav class="nav nav-pills card-header-pills" id="navbar-example">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a href="#headingOne" class="nav-link">One</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#headingTwo" class="nav-link">Two</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#headingThree" class="nav-link">Three</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#headingFour" class="nav-link">Four</a>
+                            </li>
+                        </ul>
+                    </nav>
+               </div>
+               <div class="card-body overflow-scroll" style="height: 250px;">
+                    <div 
+                        class="scrollspy-example"
+                        tabindex="0"
+                        data-bs-spy="scroll"
+                        data-bs-target="navbar-example"
+                        data-bs-root-margin="0px 0px -40px"
+                        data-bs-smooth-scroll="true">
+
+                        <h4 id="headingOne">
+                            Heading One
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis adipisci molestiae ab maxime ipsum. A, voluptatibus laudantium unde maxime animi eaque nihil vel officiis, autem inventore voluptatum repudiandae est repellendus. Perspiciatis labore cupiditate, fugit, ut nam vitae, eligendi optio impedit minus quos inventore maiores quae. Fuga accusantium reprehenderit soluta? Accusamus, eaque nobis molestiae neque modi voluptatum, totam aliquam laudantium doloremque, doloribus maxime. Cum nobis voluptatem facilis odit a, eum optio odio culpa illo? Quae totam rerum quasi suscipit autem inventore perferendis, facilis sint illo quidem, quas temporibus! Repudiandae velit facere nihil ullam. Voluptatem culpa animi, hic alias similique nulla provident at tenetur ad, accusantium voluptas quas dolorem ratione laboriosam id dignissimos nam. Saepe asperiores sunt minus, laborum adipisci dolorum eligendi beatae non dolore culpa cupiditate eaque quo labore eos ipsa, recusandae iste. Sapiente asperiores tempore magnam necessitatibus consectetur. Eos id incidunt quos natus adipisci dolor error animi itaque voluptas perspiciatis.</p>
+
+                        <h4 id="headingTwo">
+                            Heading Two
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis adipisci molestiae ab maxime ipsum. A, voluptatibus laudantium unde maxime animi eaque nihil vel officiis, autem inventore voluptatum repudiandae est repellendus. Perspiciatis labore cupiditate, fugit, ut nam vitae, eligendi optio impedit minus quos inventore maiores quae. Fuga accusantium reprehenderit soluta? Accusamus, eaque nobis molestiae neque modi voluptatum, totam aliquam laudantium doloremque, doloribus maxime. Cum nobis voluptatem facilis odit a, eum optio odio culpa illo? Quae totam rerum quasi suscipit autem inventore perferendis, facilis sint illo quidem, quas temporibus! Repudiandae velit facere nihil ullam. Voluptatem culpa animi, hic alias similique nulla provident at tenetur ad, accusantium voluptas quas dolorem ratione laboriosam id dignissimos nam. Saepe asperiores sunt minus, laborum adipisci dolorum eligendi beatae non dolore culpa cupiditate eaque quo labore eos ipsa, recusandae iste. Sapiente asperiores tempore magnam necessitatibus consectetur. Eos id incidunt quos natus adipisci dolor error animi itaque voluptas perspiciatis.</p>
+
+                        <h4 id="headingThree">
+                            Heading Three
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis adipisci molestiae ab maxime ipsum. A, voluptatibus laudantium unde maxime animi eaque nihil vel officiis, autem inventore voluptatum repudiandae est repellendus. Perspiciatis labore cupiditate, fugit, ut nam vitae, eligendi optio impedit minus quos inventore maiores quae. Fuga accusantium reprehenderit soluta? Accusamus, eaque nobis molestiae neque modi voluptatum, totam aliquam laudantium doloremque, doloribus maxime. Cum nobis voluptatem facilis odit a, eum optio odio culpa illo? Quae totam rerum quasi suscipit autem inventore perferendis, facilis sint illo quidem, quas temporibus! Repudiandae velit facere nihil ullam. Voluptatem culpa animi, hic alias similique nulla provident at tenetur ad, accusantium voluptas quas dolorem ratione laboriosam id dignissimos nam. Saepe asperiores sunt minus, laborum adipisci dolorum eligendi beatae non dolore culpa cupiditate eaque quo labore eos ipsa, recusandae iste. Sapiente asperiores tempore magnam necessitatibus consectetur. Eos id incidunt quos natus adipisci dolor error animi itaque voluptas perspiciatis.</p>
+
+                        <h4 id="headingFour">
+                            Heading Four
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis adipisci molestiae ab maxime ipsum. A, voluptatibus laudantium unde maxime animi eaque nihil vel officiis, autem inventore voluptatum repudiandae est repellendus. Perspiciatis labore cupiditate, fugit, ut nam vitae, eligendi optio impedit minus quos inventore maiores quae. Fuga accusantium reprehenderit soluta? Accusamus, eaque nobis molestiae neque modi voluptatum, totam aliquam laudantium doloremque, doloribus maxime. Cum nobis voluptatem facilis odit a, eum optio odio culpa illo? Quae totam rerum quasi suscipit autem inventore perferendis, facilis sint illo quidem, quas temporibus! Repudiandae velit facere nihil ullam. Voluptatem culpa animi, hic alias similique nulla provident at tenetur ad, accusantium voluptas quas dolorem ratione laboriosam id dignissimos nam. Saepe asperiores sunt minus, laborum adipisci dolorum eligendi beatae non dolore culpa cupiditate eaque quo labore eos ipsa, recusandae iste. Sapiente asperiores tempore magnam necessitatibus consectetur. Eos id incidunt quos natus adipisci dolor error animi itaque voluptas perspiciatis.</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="enable-stuff.js"></script>
+
+</body>
+</html>
